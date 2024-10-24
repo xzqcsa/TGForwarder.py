@@ -8,7 +8,7 @@ on:
   # 允许手动触发工作流
   workflow_dispatch:
 
-push:
+
   paths-ignore:
     - '**' # 忽略所有文件变更，即当有文件变更时不会触发这个工作流
 
